@@ -15,3 +15,6 @@ The ML model has high accuracy for prediction of stress tensors. Always use the 
 |Dynamics up to 400K (including heating, cooling) | Gibbs free energy stability| 
 |Stress tensor | any other than NPT and NVT ensemble  | 
 |Al + Mg + Zr + Si (low concentration regime) | other elements or non-fcc structures| 
+
+
+VASP MLFF can be used only in VASP, MACE neural network model can be used in LAMMPS, ASE and many others. 
