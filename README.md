@@ -18,3 +18,7 @@ The ML model has high accuracy for prediction of stress tensors. Always use the 
 
 
 VASP MLFF can be used only in VASP, MACE neural network model can be used in LAMMPS, ASE and many others. 
+
+# Calculation of polycrystal constants 
+
+From $\tau_{ij} = C_{ijkl} \varepsilon_{kl}$ 
