@@ -21,4 +21,4 @@ VASP MLFF can be used only in VASP, MACE neural network model can be used in LAM
 
 # Calculation of polycrystal constants 
 
-From $\tau_{ij} = C_{ijkl} \varepsilon_{kl}$ 
+From $$\tau_{ij} = C_{ijkl} \varepsilon_{kl}$$ 
