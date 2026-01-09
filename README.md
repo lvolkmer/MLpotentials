@@ -21,5 +21,5 @@ VASP MLFF can be used only in VASP, MACE neural network model can be used in LAM
 
 # Calculation of polycrystal constants 
 Apply a change of shape and size to the box defined by the distortion matrix $ D_{ij} = \delta_{ij} + \varepsilon_{ij}$ . Then run MD simulation and get $\tau$ as an average for $N$ time steps. This results in one data point. Do this multiple time and then fit 
-From $$\tau_{ij} = C_{ijkl} \varepsilon_{kl}$$ to derive the stiffness matrix $C_{ijkl}$. Depending on the symmetry of your system, you need different matrix entries, i.e. need to run different distortions. 
+From $\tau_{ij} = C_{ijkl} \varepsilon_{kl}$ to derive the stiffness matrix $C_{ijkl}$ . Depending on the symmetry of your system, you need different matrix entries, i.e. need to run different distortions. 
 You can calculate the polycrystalline constants $B,G,E, \nu$ from the stiffness matrix, respecting the symmetry of the system. For an isotrope material there exist only two independent constants, so e.g. $\nu = \nu(B,G)$ and $E= E(B,G)$. 
